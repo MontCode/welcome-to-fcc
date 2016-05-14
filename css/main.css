@@ -1,10 +1,11 @@
 /*Add custom css here*/
-@import url(https://fonts.googleapis.com/css?family=Jura:400,300);
-
-body {
-  font-family: 'Jura', sans-serif;
-}
 
 .final-page a {
+  color: #fff !important;
+  text-shadow: 0 4px 3px rgba(0, 0, 0, 0.4), 0 8px 13px rgba(0, 0, 0, 0.1), 0 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+.final-page a:hover {
+  color: #666 !important;
   text-shadow: 0 4px 3px rgba(0, 0, 0, 0.4), 0 8px 13px rgba(0, 0, 0, 0.1), 0 18px 23px rgba(0, 0, 0, 0.1);
 }
