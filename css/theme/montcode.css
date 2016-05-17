@@ -8,6 +8,11 @@
 .reveal a {
   line-height: 1.3em; }
 
+hr.stylized {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));  }
+
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
@@ -23,7 +28,7 @@ body {
 
 .reveal {
   font-family: "Ubuntu", sans-serif;
-  font-size: 36px;
+  font-size: 2.5rem;
   font-weight: normal;
   color: #fff; }
 
@@ -57,16 +62,16 @@ body {
   word-wrap: break-word; }
 
 .reveal h1 {
-  font-size: 2.5em; }
+  font-size: 7.5rem; }
 
 .reveal h2 {
-  font-size: 1.9em; }
+  font-size: 6.5rem; }
 
 .reveal h3 {
-  font-size: 1.3em; }
+  font-size: 5.5rem; }
 
 .reveal h4 {
-  font-size: 1em; }
+  font-size: 4.5rem; }
 
 /*.reveal h1 {
   text-shadow: none; }*/
@@ -87,7 +92,7 @@ body {
 
 .reveal strong,
 .reveal b {
-  font-weight: bold; }
+  font-weight: 700; }
 
 .reveal em {
   font-style: italic; }
@@ -200,9 +205,12 @@ body {
 
 .reveal small {
   display: inline-block;
-  font-size: 0.6em;
+  font-size: 1.2rem;
   line-height: 1.2em;
   vertical-align: top; }
+
+.reveal small a {
+    font-size: 1.2rem; }
 
 .reveal small * {
   vertical-align: top; }
@@ -213,6 +221,7 @@ body {
 .reveal a {
   color: #E6E6BC;
   font-style:italic;
+  font-size: 1em;
   text-decoration: none;
   font-weight: 300;
   /*border-bottom: #fff 3px dashed; text-decoration:none;*/
